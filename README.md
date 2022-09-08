@@ -32,7 +32,7 @@ An elbow curve is formed the K-Means method iterating on k values from 1 to 10. 
 
 ![3d scatter](https://github.com/CorinneBean/Cryptocurrencies/blob/58315dc54d519f4fb36690b9b4b1129dd81b4fd1/Images/3D%20Scatter.png)
 
-we create a 3D-Scatter with the PCA data and the clusters. 
+A 3D-Scatter was created with the PCA data and the clusters. 
 
 
 A 2D-plot showing the clusters , Create a hvplot.scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply".Showing the 532 tradable cryptocurrencies, based on their Class for the 4 K_mean clusters obtained above. 
