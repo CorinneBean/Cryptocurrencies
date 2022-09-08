@@ -12,8 +12,9 @@ Following are the expected deliverables:
 
 ### Resources
 
-Data Source: [crypto_data.csv]() 
-Software: Python , Anaconda Navigator, Conda, Jupyter Notebook , numpy, sklearn, pandas,plotly & hvplot
+Data Source: [crypto_data.csv](https://github.com/CorinneBean/Cryptocurrencies/blob/58315dc54d519f4fb36690b9b4b1129dd81b4fd1/Resources/crypto_data.csv) 
+
+Software: Python , Anaconda Navigator, Conda, Jupyter Notebook , numpy, sklearn, pandas, plotly & hvplot
     
 ### Results 
 
@@ -23,25 +24,25 @@ After, getting the cleaned dataframe , the text columns are converted into numer
 ### Clustering Cryptocurrencies Using K-means
 An elbow curve is formed the K-Means method iterating on k values from 1 to 10. We consider 4 clusters , since there is a sharp changed at k=4. 
 
-![Elbow Curve]()
+![Elbow Curve](https://github.com/CorinneBean/Cryptocurrencies/blob/58315dc54d519f4fb36690b9b4b1129dd81b4fd1/Images/Elbow%20Curve..png)
 
 ### Visualizing Cryptocurrencies Results
 
-![3d scatter code]()
+![3d scatter code](https://github.com/CorinneBean/Cryptocurrencies/blob/58315dc54d519f4fb36690b9b4b1129dd81b4fd1/Images/3d%20scatter%20code.png)
 
-![3d scatter]()
+![3d scatter](https://github.com/CorinneBean/Cryptocurrencies/blob/58315dc54d519f4fb36690b9b4b1129dd81b4fd1/Images/3D%20Scatter.png)
 
 we create a 3D-Scatter with the PCA data and the clusters. 
 
 
 A 2D-plot showing the clusters , Create a hvplot.scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply".Showing the 532 tradable cryptocurrencies, based on their Class for the 4 K_mean clusters obtained above. 
 
-![scatter]()
+![scatter](https://github.com/CorinneBean/Cryptocurrencies/blob/58315dc54d519f4fb36690b9b4b1129dd81b4fd1/Images/Scatter.png)
 
 
 
 The following image shows the 532 tradable cryptocurrencies in the form of a table using hvplot.table.
 
-![tradeables]()
+![tradeables](https://github.com/CorinneBean/Cryptocurrencies/blob/58315dc54d519f4fb36690b9b4b1129dd81b4fd1/Images/tradables.png)
 
  
